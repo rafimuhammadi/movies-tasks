@@ -1,0 +1,42 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <title>Movies Website</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/font/font.css" />
+    <!-- JS Files -->
+    <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="js/core.js"></script>
+  </head>
+  <body onload="AllData()">
+    <div class="container py-3">
+      <header>
+        <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom bd-subnavbar ">
+          <a href="javascript:void(0)" class="d-flex align-items-center text-dark text-decoration-none">
+            <img src="images/logo.webp" alt="" width="200">
+          </a>
+        </div>
+      </header>
+      <main>
+          <div class="row border-0 mb-3" style="box-shadow: 0px 0px 20px 0px rgb(76 87 125 / 2%); background: #131516 !important;" id="main">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <span class="fw-bold rounded titles my-2 d-block">Actors</span>
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12">
+              <span class="fw-bold rounded titles my-2 d-block">Movies</span>
+            </div>
+          </div>
+          <div class="row" id="load-data"></div>
+      </main>
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <span class="text-muted">&copy; 2022 Movies Website</></font></span>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
+
